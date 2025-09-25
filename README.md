@@ -28,20 +28,26 @@ Currently, I’m improving my skills in **C#, Flutter, and MSSQL**, while workin
 ---
 
 ## 📌 Featured Projects
-
-- **Attendance Management System** - Built with **Flutter, Firebase, MSSQL** - Features: authentication, real-time database sync, data visualization
+- **Attendance Management System**  
+  Built with **Flutter, Firebase, MSSQL**  
+  Features: authentication, real-time database sync, data visualization  
 
 ---
 
 ## 📊 GitHub Stats
-
-![Koço's GitHub stats](https://github-readme-stats.vercel.app/api?username=kocofani23&show_icons=true&theme=radical)  
+![My GitHub stats](https://github-readme-stats.vercel.app/api?username=kocofani23&show_icons=true&theme=radical)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kocofani23&layout=compact&theme=radical)
 
 ---
 
 ## 📈 Activity Graph
-[![Koço's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kocofani23&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
+![My github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kocofani23&theme=react-dark)
+
+---
+
+## 📂 Explore My Repositories
+[![GitHub Repositories](https://img.shields.io/badge/-See%20All%20Repositories-black?style=for-the-badge&logo=github)](https://github.com/kocofani23?tab=repositories)
+
 
 ---
 
