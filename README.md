@@ -1,6 +1,3 @@
-<!-- Header Banner (optional, replace with your own image link) -->
-![Header](https://raw.githubusercontent.com/kocofani23/kocofani23/main/header.png)
-
 # 👋 Hi, I'm Koço Fani  
 
 🎓 Computer Engineering Student @ Yıldız Technical University (2022–2026)  
