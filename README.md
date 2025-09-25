@@ -2,8 +2,6 @@
 
 🎓 Computer Engineering Student @ Yıldız Technical University (2022–2026)  
 📍 Istanbul, Turkey  
-📧 [kocofanni@gmail.com](mailto:kocofanni@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/ko%C3%A7o-fani-144597294/) | [GitHub](https://github.com/kocofani23)  
 
 ---
 
