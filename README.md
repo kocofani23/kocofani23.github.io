@@ -32,9 +32,7 @@ Currently, I’m improving my skills in **C#, Flutter, and MSSQL**, while workin
 
 ## 📌 Featured Projects
 
-[![Attendance Management System](https://github-readme-stats.vercel.app/api/pin/?username=kocofani23&repo=attendance-management-system&theme=radical)](https://github.com/kocofani23/attendance-management-system)
-
-*(Add more repos here by copying the above line and changing the repo name.)*
+- **Attendance Management System** - Built with **Flutter, Firebase, MSSQL** - Features: authentication, real-time database sync, data visualization
 
 ---
 
