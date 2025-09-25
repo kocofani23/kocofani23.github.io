@@ -1,8 +1,7 @@
-## 👋 About Me
-Hi! I'm **Koço Fani**, a Computer Engineering student passionate about **software development, databases, and mobile applications**.  
-I enjoy solving real-world problems with code, building efficient systems, and learning new technologies.  
-Currently, I’m improving my skills in **C#, Flutter, and MSSQL**, while working on side projects and open-source contributions.  
-# Koço Fani
+<!-- Header Banner (optional, replace with your own image link) -->
+![Header](https://raw.githubusercontent.com/kocofani23/kocofani23/main/header.png)
+
+# 👋 Hi, I'm Koço Fani  
 
 🎓 Computer Engineering Student @ Yıldız Technical University (2022–2026)  
 📍 Istanbul, Turkey  
@@ -11,62 +10,59 @@ Currently, I’m improving my skills in **C#, Flutter, and MSSQL**, while workin
 
 ---
 
-## 👨‍💻 Professional Summary
-Motivated and detail-oriented Computer Engineering student with practical experience in **software development, database systems, and IT support**.  
-Completed internships in B2B software consultancy and IT support, contributing to real-world projects.  
-Strong foundation in programming and problem-solving, with a passion for building efficient and user-friendly applications.  
-Multilingual communicator: **Albanian (Native), English (C1), Turkish (C1), Italian (B2).**
+## 👨‍💻 About Me
+Hi! I'm **Koço Fani**, a Computer Engineering student passionate about **software development, databases, and mobile applications**.  
+I enjoy solving real-world problems with code, building efficient systems, and learning new technologies.  
+Currently, I’m improving my skills in **C#, Flutter, and MSSQL**, while working on side projects and open-source contributions.  
 
 ---
 
-## 🛠️ Technical Skills
-- **Programming Languages:** C, C#, Python, Java, Dart/Flutter  
-- **Tools & Technologies:** Git, GitHub, Firebase, TensorFlow  
-- **Database Management:** PostgreSQL, PostGIS, MSSQL  
-- **Other:** Microsoft Office tools  
+## 🛠️ Tech Stack
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white)
 
 ---
 
-## 🎓 Education & Certifications
-- **Yıldız Technical University** – BSc in Computer Engineering (2022–2026)  
-- **Michigan State University** – English Proficiency Exam (C1, 2021)  
-- **Trakya State University** – Turkish Proficiency Exam (C1, 2022)  
+## 📌 Featured Projects
+
+[![Attendance Management System](https://github-readme-stats.vercel.app/api/pin/?username=kocofani23&repo=attendance-management-system&theme=radical)](https://github.com/kocofani23/attendance-management-system)
+
+*(Add more repos here by copying the above line and changing the repo name.)*
 
 ---
 
-## 💼 Work & Extracurricular Experience
-- **Software Developer Intern – Sumo Yazılım & Danışmanlık (2025)**  
-  - C#, MSSQL development  
-  - Worked on **eBA, Synergy CSP** platforms  
-  - Contributed to B2B solutions and consultancy services  
+## 📊 GitHub Stats
 
-- **IT Intern – ZerOne Company (2024)**  
-  - Software & hardware assistance  
-  - Database management tasks  
-  - IT support and troubleshooting  
-
-- **Medical Translator – NaturalClinic, Istanbul (2024–2025)**  
-  - Italian ↔ Albanian translation  
-
-- **Volunteer – Red Cross of Albania (2019–2021)**  
+![Koço's GitHub stats](https://github-readme-stats.vercel.app/api?username=kocofani23&show_icons=true&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kocofani23&layout=compact&theme=radical)
 
 ---
 
-## 🚀 Projects
-- **Attendance Management System**  
-  - Built with **Flutter, Firebase, MSSQL**  
-  - Features: authentication, real-time database sync, data visualization  
+## 📈 Activity Graph
+[![Koço's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kocofani23&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
 ## 🌐 Languages
-- Albanian – Native  
-- English – C1 (Advanced)  
-- Turkish – C1 (Advanced)  
-- Italian – B2 (Upper-Intermediate)
+- 🇦🇱 Albanian – Native  
+- 🇬🇧 English – C1 (Advanced)  
+- 🇹🇷 Turkish – C1 (Advanced)  
+- 🇮🇹 Italian – B2 (Upper-Intermediate)  
 
 ---
-## 📂 Repositories
-[![Koço's GitHub Repos](https://github-readme-stats.vercel.app/api?username=kocofani23&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/kocofani23?tab=repositories)
 
+## 📬 Contact Me
+- 📧 [Email](mailto:kocofanni@gmail.com)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/ko%C3%A7o-fani-144597294/)  
+- 💻 [GitHub](https://github.com/kocofani23)  
 
+---
+
+![Profile Views](https://komarev.com/ghpvc/?username=kocofani23&style=flat-square&color=blue)
