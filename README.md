@@ -63,4 +63,25 @@ Multilingual communicator: **Albanian (Native), English (C1), Turkish (C1), Ital
 - Albanian – Native  
 - English – C1 (Advanced)  
 - Turkish – C1 (Advanced)  
-- Italian – B2 (Upper-Intermediate)  
+- Italian – B2 (Upper-Intermediate)
+
+## 📊 GitHub Stats
+
+[![Koço's GitHub stats](https://github-readme-stats.vercel.app/api?username=kocofani23&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+---
+## 📂Repositores
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
