@@ -65,23 +65,8 @@ Multilingual communicator: **Albanian (Native), English (C1), Turkish (C1), Ital
 - Turkish – C1 (Advanced)  
 - Italian – B2 (Upper-Intermediate)
 
-## 📊 GitHub Stats
-
-[![Koço's GitHub stats](https://github-readme-stats.vercel.app/api?username=kocofani23&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
 ---
-## 📂Repositores
--
--
--
--
--
--
--
--
--
--
--
--
--
+## 📂 Repositories
+[![Koço's GitHub Repos](https://github-readme-stats.vercel.app/api?username=kocofani23&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/kocofani23?tab=repositories)
+
 
