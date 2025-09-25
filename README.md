@@ -64,4 +64,5 @@ Currently, I’m improving my skills in **C#, Flutter, and MSSQL**, while workin
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/?username=kocofani23&style=flat-square&color=blue)
+![Profile Views](https://komarev.com/ghpvc/?username=kocofani23&style=for-the-badge&color=blue)
+
