@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -765,17 +764,12 @@
     <div class="hero-image">
       <div class="profile-container">
         <div class="profile-image">
-          <!-- Replace src with your profile picture URL -->
           <img src="profile.jpg" alt="Koço Fani" />
         </div>
       </div>
     </div>
   </div> <!-- .hero-content -->
 </section> <!-- .hero -->
-
-    </div>
-  </section>
-
   
 <!-- About Section -->
 <section id="about" class="about">
@@ -897,6 +891,15 @@
           <div class="skill"><div class="skill-icon-small"><i class="fas fa-database"></i></div><span>MySQL</span></div>
           <div class="skill"><div class="skill-icon-small"><i class="fas fa-database"></i></div><span>PostgreSQL</span></div>
           <div class="skill"><div class="skill-icon-small"><i class="fas fa-server"></i></div><span>MSSQL</span></div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3 style="margin:0"><i class="fas fa-language" aria-hidden="true"></i> Languages</h3>
+        <div class="skills-grid">
+          <div class="skill"><div class="skill-icon-small"><i class="fas fa-flag"></i></div><span>Albanian (Native)</span></div>
+          <div class="skill"><div class="skill-icon-small"><i class="fas fa-flag"></i></div><span>English (C1)</span></div>
+          <div class="skill"><div class="skill-icon-small"><i class="fas fa-flag"></i></div><span>Turkish (C1)</span></div>
+          <div class="skill"><div class="skill-icon-small"><i class="fas fa-flag"></i></div><span>Italian (B2)</span></div>
         </div>
       </div>
     </div>
