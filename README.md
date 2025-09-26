@@ -24,7 +24,6 @@
       --radius: 12px;
       --transition: all 0.3s ease;
     }
-
     .dark-mode {
       --primary: #3b82f6;
       --primary-dark: #2563eb;
@@ -38,17 +37,14 @@
       --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
       --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
     }
-
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-
     html {
       scroll-behavior: smooth;
     }
-
     body {
       font-family: 'Inter', sans-serif;
       background-color: var(--bg);
@@ -57,7 +53,6 @@
       transition: var(--transition);
       overflow-x: hidden;
     }
-
     /* Header & Navigation */
     header {
       position: fixed;
@@ -69,11 +64,9 @@
       transition: var(--transition);
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     }
-
     .dark-mode header {
       background-color: rgba(15, 23, 42, 0.9);
     }
-
     .nav-container {
       max-width: 1200px;
       margin: 0 auto;
@@ -83,7 +76,6 @@
       align-items: center;
       height: 70px;
     }
-
     .logo {
       font-size: 1.5rem;
       font-weight: 700;
@@ -93,20 +85,16 @@
       align-items: center;
       gap: 0.5rem;
     }
-
     .logo span {
       color: var(--text);
     }
-
     .dark-mode .logo span {
       color: var(--text);
     }
-
     .nav-links {
       display: flex;
       gap: 2rem;
     }
-
     .nav-links a {
       color: var(--text);
       text-decoration: none;
@@ -114,7 +102,6 @@
       position: relative;
       transition: var(--transition);
     }
-
     .nav-links a::after {
       content: '';
       position: absolute;
@@ -125,21 +112,17 @@
       background-color: var(--primary);
       transition: var(--transition);
     }
-
     .nav-links a:hover::after {
       width: 100%;
     }
-
     .nav-links a:hover {
       color: var(--primary);
     }
-
     .nav-controls {
       display: flex;
       align-items: center;
       gap: 1rem;
     }
-
     .theme-toggle {
       background: none;
       border: none;
@@ -148,11 +131,9 @@
       font-size: 1.2rem;
       transition: var(--transition);
     }
-
     .theme-toggle:hover {
       color: var(--primary);
     }
-
     .mobile-menu-btn {
       display: none;
       background: none;
@@ -161,7 +142,6 @@
       font-size: 1.5rem;
       cursor: pointer;
     }
-
     /* Hero Section */
     .hero {
       min-height: 100vh;
@@ -172,7 +152,6 @@
       position: relative;
       overflow: hidden;
     }
-
     .hero::before {
       content: '';
       position: absolute;
@@ -185,7 +164,6 @@
       opacity: 0.1;
       z-index: 0;
     }
-
     .hero-content {
       max-width: 1200px;
       margin: 0 auto;
@@ -196,30 +174,25 @@
       position: relative;
       z-index: 1;
     }
-
     .hero-text h1 {
       font-size: 3.5rem;
       font-weight: 700;
       line-height: 1.2;
       margin-bottom: 1.5rem;
     }
-
     .hero-text h1 span {
       color: var(--primary);
     }
-
     .hero-text p {
       font-size: 1.2rem;
       color: var(--text-light);
       margin-bottom: 2rem;
       max-width: 500px;
     }
-
     .cta-buttons {
       display: flex;
       gap: 1rem;
     }
-
     .btn {
       padding: 0.8rem 1.5rem;
       border-radius: var(--radius);
@@ -230,36 +203,30 @@
       align-items: center;
       gap: 0.5rem;
     }
-
     .btn-primary {
       background-color: var(--primary);
       color: white;
     }
-
     .btn-primary:hover {
       background-color: var(--primary-dark);
       transform: translateY(-2px);
       box-shadow: var(--shadow-lg);
     }
-
     .btn-secondary {
       background-color: transparent;
       color: var(--text);
       border: 1px solid var(--text-light);
     }
-
     .btn-secondary:hover {
       border-color: var(--primary);
       color: var(--primary);
       transform: translateY(-2px);
     }
-
     .hero-image {
       display: flex;
       justify-content: center;
       align-items: center;
     }
-
     .profile-container {
       width: 350px;
       height: 350px;
@@ -271,7 +238,6 @@
       position: relative;
       animation: float 6s ease-in-out infinite;
     }
-
     .profile-image {
       width: 330px;
       height: 330px;
@@ -283,18 +249,15 @@
       font-size: 8rem;
       color: var(--primary);
     }
-
     @keyframes float {
       0% { transform: translateY(0px); }
       50% { transform: translateY(-20px); }
       100% { transform: translateY(0px); }
     }
-
     /* Sections */
     section {
       padding: 6rem 2rem;
     }
-
     .section-title {
       text-align: center;
       font-size: 2.5rem;
@@ -302,7 +265,6 @@
       margin-bottom: 3rem;
       position: relative;
     }
-
     .section-title::after {
       content: '';
       position: absolute;
@@ -314,12 +276,10 @@
       background: linear-gradient(to right, var(--primary), var(--secondary));
       border-radius: 2px;
     }
-
     /* About Section */
     .about {
       background-color: var(--bg-alt);
     }
-
     .about-content {
       max-width: 1000px;
       margin: 0 auto;
@@ -328,12 +288,10 @@
       gap: 4rem;
       align-items: center;
     }
-
     .about-text p {
       margin-bottom: 1.5rem;
       color: var(--text-light);
     }
-
     .quote-box {
       background-color: var(--card-bg);
       padding: 2rem;
@@ -342,32 +300,27 @@
       border-left: 4px solid var(--primary);
       margin-top: 2rem;
     }
-
     .quote-box p {
       font-style: italic;
       color: var(--text);
       margin-bottom: 1rem;
     }
-
     .quote-author {
       text-align: right;
       font-weight: 600;
       color: var(--primary);
     }
-
     .skills-highlights {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 1rem;
     }
-
     .skill-item {
       display: flex;
       align-items: center;
       gap: 0.8rem;
       margin-bottom: 1rem;
     }
-
     .skill-icon {
       width: 40px;
       height: 40px;
@@ -378,7 +331,6 @@
       justify-content: center;
       color: white;
     }
-
     /* Projects Section */
     .projects-grid {
       display: grid;
@@ -387,7 +339,6 @@
       max-width: 1200px;
       margin: 0 auto;
     }
-
     .project-card {
       background-color: var(--card-bg);
       border-radius: var(--radius);
@@ -395,12 +346,10 @@
       box-shadow: var(--shadow);
       transition: var(--transition);
     }
-
     .project-card:hover {
       transform: translateY(-10px);
       box-shadow: var(--shadow-lg);
     }
-
     .project-image {
       height: 200px;
       background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
@@ -410,28 +359,23 @@
       color: white;
       font-size: 3rem;
     }
-
     .project-content {
       padding: 1.5rem;
     }
-
     .project-content h3 {
       font-size: 1.3rem;
       margin-bottom: 0.5rem;
     }
-
     .project-content p {
       color: var(--text-light);
       margin-bottom: 1.5rem;
     }
-
     .project-tags {
       display: flex;
       flex-wrap: wrap;
       gap: 0.5rem;
       margin-bottom: 1.5rem;
     }
-
     .tag {
       background-color: var(--bg-alt);
       color: var(--text);
@@ -440,12 +384,10 @@
       font-size: 0.8rem;
       font-weight: 500;
     }
-
     .project-links {
       display: flex;
       gap: 1rem;
     }
-
     .project-link {
       color: var(--primary);
       text-decoration: none;
@@ -455,34 +397,28 @@
       gap: 0.5rem;
       transition: var(--transition);
     }
-
     .project-link:hover {
       color: var(--secondary);
     }
-
     /* Skills Section */
     .skills {
       background-color: var(--bg-alt);
     }
-
     .skills-container {
       max-width: 1000px;
       margin: 0 auto;
     }
-
     .skills-categories {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 2rem;
     }
-
     .skill-category {
       background-color: var(--card-bg);
       padding: 2rem;
       border-radius: var(--radius);
       box-shadow: var(--shadow);
     }
-
     .skill-category h3 {
       display: flex;
       align-items: center;
@@ -490,23 +426,19 @@
       margin-bottom: 1.5rem;
       font-size: 1.2rem;
     }
-
     .skill-category h3 i {
       color: var(--primary);
     }
-
     .skills-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 1rem;
     }
-
     .skill {
       display: flex;
       align-items: center;
       gap: 0.8rem;
     }
-
     .skill-icon-small {
       width: 30px;
       height: 30px;
@@ -517,7 +449,6 @@
       justify-content: center;
       color: var(--primary);
     }
-
     /* Fun Section */
     .hobbies-grid {
       display: grid;
@@ -526,7 +457,6 @@
       max-width: 1000px;
       margin: 0 auto;
     }
-
     .hobby-card {
       background-color: var(--card-bg);
       padding: 2rem;
@@ -535,12 +465,10 @@
       text-align: center;
       transition: var(--transition);
     }
-
     .hobby-card:hover {
       transform: translateY(-5px);
       box-shadow: var(--shadow-lg);
     }
-
     .hobby-icon {
       width: 70px;
       height: 70px;
@@ -553,20 +481,16 @@
       color: white;
       font-size: 1.8rem;
     }
-
     .hobby-card h3 {
       margin-bottom: 1rem;
     }
-
     .hobby-card p {
       color: var(--text-light);
     }
-
     /* Contact Section */
     .contact {
       background-color: var(--bg-alt);
     }
-
     .contact-container {
       max-width: 1000px;
       margin: 0 auto;
@@ -574,24 +498,20 @@
       grid-template-columns: 1fr 1fr;
       gap: 4rem;
     }
-
     .contact-info h3 {
       margin-bottom: 1.5rem;
       font-size: 1.5rem;
     }
-
     .contact-details {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
     }
-
     .contact-item {
       display: flex;
       align-items: center;
       gap: 1rem;
     }
-
     .contact-icon {
       width: 50px;
       height: 50px;
@@ -603,27 +523,22 @@
       color: white;
       font-size: 1.2rem;
     }
-
     .contact-text h4 {
       margin-bottom: 0.3rem;
     }
-
     .contact-text p, .contact-text a {
       color: var(--text-light);
       text-decoration: none;
       transition: var(--transition);
     }
-
     .contact-text a:hover {
       color: var(--primary);
     }
-
     .social-links {
       display: flex;
       gap: 1rem;
       margin-top: 2rem;
     }
-
     .social-link {
       width: 40px;
       height: 40px;
@@ -635,30 +550,25 @@
       color: var(--text);
       transition: var(--transition);
     }
-
     .social-link:hover {
       background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
       color: white;
       transform: translateY(-3px);
     }
-
     .contact-form {
       background-color: var(--card-bg);
       padding: 2rem;
       border-radius: var(--radius);
       box-shadow: var(--shadow);
     }
-
     .form-group {
       margin-bottom: 1.5rem;
     }
-
     .form-group label {
       display: block;
       margin-bottom: 0.5rem;
       font-weight: 500;
     }
-
     .form-control {
       width: 100%;
       padding: 0.8rem 1rem;
@@ -668,30 +578,25 @@
       color: var(--text);
       transition: var(--transition);
     }
-
     .form-control:focus {
       outline: none;
       border-color: var(--primary);
       box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
     }
-
     textarea.form-control {
       min-height: 150px;
       resize: vertical;
     }
-
     /* Footer */
     footer {
       background-color: var(--card-bg);
       padding: 3rem 2rem;
       text-align: center;
     }
-
     .footer-content {
       max-width: 1200px;
       margin: 0 auto;
     }
-
     .footer-logo {
       font-size: 1.8rem;
       font-weight: 700;
@@ -699,99 +604,79 @@
       margin-bottom: 1rem;
       display: inline-block;
     }
-
     .footer-links {
       display: flex;
       justify-content: center;
       gap: 2rem;
       margin-bottom: 2rem;
     }
-
     .footer-links a {
       color: var(--text-light);
       text-decoration: none;
       transition: var(--transition);
     }
-
     .footer-links a:hover {
       color: var(--primary);
     }
-
     .copyright {
       color: var(--text-light);
       font-size: 0.9rem;
     }
-
     /* Responsive Design */
     @media (max-width: 992px) {
       .hero-content {
         grid-template-columns: 1fr;
         text-align: center;
       }
-      
       .hero-text p {
         margin: 0 auto 2rem;
       }
-      
       .cta-buttons {
         justify-content: center;
       }
-      
       .about-content {
         grid-template-columns: 1fr;
       }
-      
       .contact-container {
         grid-template-columns: 1fr;
       }
     }
-
     @media (max-width: 768px) {
       .nav-links {
         display: none;
       }
-      
       .mobile-menu-btn {
         display: block;
       }
-      
       .hero-text h1 {
         font-size: 2.5rem;
       }
-      
       .profile-container {
         width: 280px;
         height: 280px;
       }
-      
       .profile-image {
         width: 260px;
         height: 260px;
         font-size: 6rem;
       }
-      
       .section-title {
         font-size: 2rem;
       }
-      
       .projects-grid {
         grid-template-columns: 1fr;
       }
-      
       .skills-categories {
         grid-template-columns: 1fr;
       }
-      
       .hobbies-grid {
         grid-template-columns: 1fr;
       }
-      
       .footer-links {
         flex-direction: column;
         gap: 1rem;
       }
     }
-
     /* Mobile Menu */
     .mobile-menu {
       position: fixed;
@@ -809,11 +694,9 @@
       transition: var(--transition);
       z-index: 999;
     }
-
     .mobile-menu.active {
       transform: translateX(0);
     }
-
     .mobile-menu a {
       color: var(--text);
       text-decoration: none;
@@ -822,7 +705,6 @@
       padding: 0.5rem 1rem;
       transition: var(--transition);
     }
-
     .mobile-menu a:hover {
       color: var(--primary);
     }
@@ -836,7 +718,6 @@
         <i class="fas fa-code"></i>
         <span>Koço Fani</span>
       </a>
-      
       <nav class="nav-links">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
@@ -844,7 +725,6 @@
         <a href="#fun">Hobbies</a>
         <a href="#contact">Contact</a>
       </nav>
-      
       <div class="nav-controls">
         <button class="theme-toggle" id="themeToggle">
           <i class="fas fa-moon"></i>
@@ -854,7 +734,6 @@
         </button>
       </div>
     </div>
-    
     <div class="mobile-menu" id="mobileMenu">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
@@ -863,7 +742,6 @@
       <a href="#contact">Contact</a>
     </div>
   </header>
-
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
@@ -880,12 +758,14 @@
         </div>
       </div>
       <div class="hero-image">
-        <div class="profile-container">
-          <div class="profile-image">
-            <i class="fas fa-user"></i>
-          </div>
-        </div>
-      </div>
+  <div class="profile-container">
+    <div class="profile-image">
+      <!-- Replace 'profile.jpg' with the path or URL to your image -->
+      <img src="profile.jpg" alt="Koço Fani" style="width:150px; height:150px; border-radius:50%;">
+    </div>
+  </div>
+</div>
+
     </div>
   </section>
 
@@ -970,54 +850,9 @@
         </div>
       </div>
       
-      <div class="project-card">
-        <div class="project-image">
-          <i class="fas fa-shopping-cart"></i>
-        </div>
-        <div class="project-content">
-          <h3>E-Commerce Platform</h3>
-          <p>A full-stack e-commerce solution with user authentication, product management, and payment integration.</p>
-          <div class="project-tags">
-            <span class="tag">React</span>
-            <span class="tag">Node.js</span>
-            <span class="tag">MongoDB</span>
-            <span class="tag">Stripe</span>
-          </div>
-          <div class="project-links">
-            <a href="#" class="project-link">
-              <i class="fab fa-github"></i> Code
-            </a>
-            <a href="#" class="project-link">
-              <i class="fas fa-external-link-alt"></i> Demo
-            </a>
-          </div>
-        </div>
-      </div>
       
-      <div class="project-card">
-        <div class="project-image">
-          <i class="fas fa-robot"></i>
-        </div>
-        <div class="project-content">
-          <h3>AI-Powered Chatbot</h3>
-          <p>An intelligent chatbot using natural language processing to provide customer support and answer queries.</p>
-          <div class="project-tags">
-            <span class="tag">Python</span>
-            <span class="tag">TensorFlow</span>
-            <span class="tag">NLP</span>
-            <span class="tag">API</span>
-          </div>
-          <div class="project-links">
-            <a href="#" class="project-link">
-              <i class="fab fa-github"></i> Code
-            </a>
-            <a href="#" class="project-link">
-              <i class="fas fa-external-link-alt"></i> Demo
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+      
+    
   </section>
 
   <!-- Skills Section -->
@@ -1042,12 +877,6 @@
             </div>
             <div class="skill">
               <div class="skill-icon-small">
-                <i class="fab fa-js"></i>
-              </div>
-              <span>JavaScript</span>
-            </div>
-            <div class="skill">
-              <div class="skill-icon-small">
                 <i class="fas fa-c"></i>
               </div>
               <span>C/C++</span>
@@ -1066,7 +895,6 @@
             </div>
           </div>
         </div>
-        
         <div class="skill-category">
           <h3><i class="fas fa-tools"></i> Frameworks & Technologies</h3>
           <div class="skills-grid">
@@ -1075,18 +903,6 @@
                 <i class="fab fa-flutter"></i>
               </div>
               <span>Flutter</span>
-            </div>
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fab fa-react"></i>
-              </div>
-              <span>React</span>
-            </div>
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fab fa-node-js"></i>
-              </div>
-              <span>Node.js</span>
             </div>
             <div class="skill">
               <div class="skill-icon-small">
@@ -1108,7 +924,6 @@
             </div>
           </div>
         </div>
-        
         <div class="skill-category">
           <h3><i class="fas fa-database"></i> Databases</h3>
           <div class="skills-grid">
@@ -1123,12 +938,6 @@
                 <i class="fas fa-database"></i>
               </div>
               <span>PostgreSQL</span>
-            </div>
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fas fa-database"></i>
-              </div>
-              <span>MongoDB</span>
             </div>
             <div class="skill">
               <div class="skill-icon-small">
@@ -1151,33 +960,22 @@
           <i class="fas fa-gamepad"></i>
         </div>
         <h3>Gaming</h3>
-        <p>I enjoy strategy games and co-op adventures that challenge problem-solving skills and teamwork.</p>
+        <p>I am a bit of an old school. I like old games that remind me of my childhood and enjoy the vibe that they have.</p>
       </div>
-      
       <div class="hobby-card">
         <div class="hobby-icon">
           <i class="fas fa-book"></i>
         </div>
         <h3>Reading</h3>
-        <p>Mostly tech books and sci-fi novels that expand my knowledge and imagination.</p>
+        <p>Literature classics and more. If you have any book suggestions please message me.</p>
       </div>
-      
       <div class="hobby-card">
         <div class="hobby-icon">
           <i class="fas fa-bicycle"></i>
         </div>
         <h3>Cycling</h3>
-        <p>Great way to relax, explore nature, and maintain a healthy work-life balance.</p>
+        <p>Old school me strikes again. I have an old road bike that I spend more time fixing than riding it.</p>
       </div>
-      
-      <div class="hobby-card">
-        <div class="hobby-icon">
-          <i class="fas fa-music"></i>
-        </div>
-        <h3>Music</h3>
-        <p>I play guitar and enjoy exploring different genres from classical to electronic music.</p>
-      </div>
-    </div>
   </section>
 
   <!-- Contact Section -->
@@ -1187,7 +985,6 @@
       <div class="contact-info">
         <h3>Let's Connect</h3>
         <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.</p>
-        
         <div class="contact-details">
           <div class="contact-item">
             <div class="contact-icon">
@@ -1198,7 +995,6 @@
               <a href="mailto:kocofanni@gmail.com">kocofanni@gmail.com</a>
             </div>
           </div>
-          
           <div class="contact-item">
             <div class="contact-icon">
               <i class="fab fa-linkedin"></i>
@@ -1208,7 +1004,6 @@
               <a href="https://www.linkedin.com/in/koço-fani-144597294/" target="_blank">Connect with me</a>
             </div>
           </div>
-          
           <div class="contact-item">
             <div class="contact-icon">
               <i class="fab fa-github"></i>
@@ -1219,23 +1014,18 @@
             </div>
           </div>
         </div>
-        
         <div class="social-links">
           <a href="#" class="social-link">
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="#" class="social-link">
+          <a href="https://www.instagram.com/_kocofani_?igsh=M2NiOW5wbWpodXBh" class="social-link">
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="#" class="social-link">
+          <a href="https://www.facebook.com/share/1JSZuCdiLm/?mibextid=wwXIfr" class="social-link">
             <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="#" class="social-link">
-            <i class="fab fa-dev"></i>
           </a>
         </div>
       </div>
-      
       <div class="contact-form">
         <h3>Send Me a Message</h3>
         <form id="contactForm">
@@ -1243,22 +1033,18 @@
             <label for="name">Your Name</label>
             <input type="text" id="name" class="form-control" required>
           </div>
-          
           <div class="form-group">
             <label for="email">Your Email</label>
             <input type="email" id="email" class="form-control" required>
           </div>
-          
           <div class="form-group">
             <label for="subject">Subject</label>
             <input type="text" id="subject" class="form-control" required>
           </div>
-          
           <div class="form-group">
             <label for="message">Your Message</label>
             <textarea id="message" class="form-control" required></textarea>
           </div>
-          
           <button type="submit" class="btn btn-primary">
             <i class="fas fa-paper-plane"></i> Send Message
           </button>
@@ -1271,7 +1057,6 @@
   <footer>
     <div class="footer-content">
       <a href="#" class="footer-logo">Koço Fani</a>
-      
       <div class="footer-links">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
@@ -1279,8 +1064,7 @@
         <a href="#fun">Hobbies</a>
         <a href="#contact">Contact</a>
       </div>
-      
-      <p class="copyright">© 2023 Koço Fani. All rights reserved.</p>
+      <p class="copyright">© 2025 Koço Fani. All rights reserved.</p>
     </div>
   </footer>
 
