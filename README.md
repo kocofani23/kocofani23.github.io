@@ -743,28 +743,30 @@
     </div>
   </header>
   <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <div class="hero-text">
-        <h1>Hi, I'm <span>Koço Fani</span></h1>
-        <p>A passionate Computer Engineering student specializing in software development, databases, and mobile applications. I love building efficient systems that solve real-world problems.</p>
-        <div class="cta-buttons">
-          <a href="#projects" class="btn btn-primary">
-            <i class="fas fa-rocket"></i> View My Work
-          </a>
-          <a href="#contact" class="btn btn-secondary">
-            <i class="fas fa-envelope"></i> Get In Touch
-          </a>
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Hi, I'm <span>Koço Fani</span></h1>
+      <p>A passionate Computer Engineering student specializing in software development, databases, and mobile applications. I love building efficient systems that solve real-world problems.</p>
+      <div class="cta-buttons">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-rocket"></i> View My Work
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <i class="fas fa-envelope"></i> Get In Touch
+        </a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="profile-container">
+        <div class="profile-image">
+          <!-- Replace src with your profile picture URL -->
+          <img src="profile.jpg" alt="Koço Fani" />
         </div>
       </div>
-      <div class="hero-image"> 
-        <div class="profile-container"> 
-          <div class="profile-image"> 
-            <i class="fas fa-user"></i>
-          </div> 
-        </div> 
-      </div>
-</div>
+    </div>
+  </div> <!-- .hero-content -->
+</section> <!-- .hero -->
 
     </div>
   </section>
@@ -777,13 +779,11 @@
     <div class="about-text">
       <p>I'm a Computer Engineering student with a strong passion for software development, databases, and mobile applications. I enjoy solving real-world problems with code, building efficient systems, and learning new technologies.</p>
       <p>My journey in technology started with curiosity about how things work, which evolved into a passion for creating solutions that make a difference. I'm constantly exploring new frameworks and tools to expand my skill set.</p>
-
       <div class="quote-box" aria-live="polite">
         <p id="quote-text">Loading a quote...</p>
         <p class="quote-author" id="quote-author"></p>
       </div>
     </div>
-
     <aside class="skills-highlights" aria-label="Skills highlights">
       <div class="skill-item">
         <div class="skill-icon" aria-hidden="true">
@@ -794,7 +794,6 @@
           <p style="margin:.3rem 0 0 0; font-size:.95rem;">Creating responsive and user-friendly mobile applications</p>
         </div>
       </div>
-
       <div class="skill-item">
         <div class="skill-icon" aria-hidden="true">
           <i class="fas fa-database"></i>
@@ -804,7 +803,6 @@
           <p style="margin:.3rem 0 0 0; font-size:.95rem;">Designing efficient and scalable database systems</p>
         </div>
       </div>
-
       <div class="skill-item">
         <div class="skill-icon" aria-hidden="true">
           <i class="fas fa-code"></i>
@@ -814,7 +812,6 @@
           <p style="margin:.3rem 0 0 0; font-size:.95rem;">Building robust and maintainable software solutions</p>
         </div>
       </div>
-
       <div class="skill-item">
         <div class="skill-icon" aria-hidden="true">
           <i class="fas fa-brain"></i>
@@ -845,17 +842,8 @@
           <span class="tag">MSSQL</span>
           <span class="tag">Mobile</span>
         </div>
-        <div class="project-links">
-          <a href="#" class="project-link" aria-label="View code on GitHub">
-            <i class="fab fa-github"></i> Code
-          </a>
-          <a href="#" class="project-link" aria-label="View demo">
-            <i class="fas fa-external-link-alt"></i> Demo
-          </a>
-        </div>
       </div>
     </div>
-
     <!-- Example additional project (keeps layout consistent) -->
     <div class="project-card">
       <div class="project-image" aria-hidden="true">
@@ -868,9 +856,6 @@
           <span class="tag">HTML</span>
           <span class="tag">CSS</span>
           <span class="tag">JavaScript</span>
-        </div>
-        <div class="project-links">
-          <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
         </div>
       </div>
     </div>
@@ -892,7 +877,6 @@
           <div class="skill"><div class="skill-icon-small"><i class="fas fa-database"></i></div><span>SQL</span></div>
         </div>
       </div>
-
       <div class="skill-category">
         <h3 style="margin:0"><i class="fas fa-tools" aria-hidden="true"></i> Frameworks & Technologies</h3>
         <div class="skills-grid">
@@ -902,7 +886,6 @@
           <div class="skill"><div class="skill-icon-small"><i class="fas fa-brain"></i></div><span>TensorFlow</span></div>
         </div>
       </div>
-
       <div class="skill-category">
         <h3 style="margin:0"><i class="fas fa-database" aria-hidden="true"></i> Databases</h3>
         <div class="skills-grid">
@@ -924,17 +907,15 @@
       <h3>Gaming</h3>
       <p>I like old-school games that remind me of childhood — the vibe is everything.</p>
     </div>
-
     <div class="hobby-card">
       <div class="hobby-icon" aria-hidden="true"><i class="fas fa-book"></i></div>
       <h3>Reading</h3>
-      <p>Literature classics, sci-fi, and tech books. Book suggestions welcome!</p>
+      <p>Literature classics in general. If you have any suggestions do not hesitate, message me.</p>
     </div>
-
     <div class="hobby-card">
       <div class="hobby-icon" aria-hidden="true"><i class="fas fa-bicycle"></i></div>
       <h3>Cycling</h3>
-      <p>I have an old road bike I tinker with and ride when the weather's right.</p>
+      <p>Old school strikes again. I have an old road bike that I spend more time fixing than riding it...</p>
     </div>
   </div>
 </section>
@@ -946,7 +927,6 @@
     <div class="contact-info">
       <h3 style="margin-top:0">Let's Connect</h3>
       <p>I'm always open to discussing new opportunities or interesting projects.</p>
-
       <div class="contact-details" style="margin-top:1rem;">
         <div class="contact-item" style="display:flex; gap:.8rem; align-items:center; margin-bottom:.8rem;">
           <div class="contact-icon" aria-hidden="true"><i class="fas fa-envelope"></i></div>
@@ -955,7 +935,6 @@
             <a href="mailto:kocofanni@gmail.com">kocofanni@gmail.com</a>
           </div>
         </div>
-
         <div class="contact-item" style="display:flex; gap:.8rem; align-items:center; margin-bottom:.8rem;">
           <div class="contact-icon" aria-hidden="true"><i class="fab fa-linkedin"></i></div>
           <div class="contact-text">
@@ -963,7 +942,6 @@
             <a href="https://www.linkedin.com/in/ko%C3%A7o-fani-144597294/" target="_blank" rel="noopener">Connect with me</a>
           </div>
         </div>
-
         <div class="contact-item" style="display:flex; gap:.8rem; align-items:center;">
           <div class="contact-icon" aria-hidden="true"><i class="fab fa-github"></i></div>
           <div class="contact-text">
@@ -972,14 +950,11 @@
           </div>
         </div>
       </div>
-
       <div class="social-links" style="margin-top:1rem;">
-        <a href="#" class="social-link" style="margin-right:.5rem;"><i class="fab fa-twitter"></i></a>
         <a href="https://www.instagram.com/_kocofani_" class="social-link" style="margin-right:.5rem;"><i class="fab fa-instagram"></i></a>
         <a href="https://www.facebook.com/share/1JSZuCdiLm/?mibextid=wwXIfr" class="social-link"><i class="fab fa-facebook-f"></i></a>
       </div>
     </div>
-
     <div class="contact-form">
       <h3 style="margin-top:0">Send Me a Message</h3>
       <form id="contactForm" onsubmit="handleContact(event)">
