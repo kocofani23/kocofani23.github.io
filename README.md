@@ -896,12 +896,12 @@
       <div class="skill-category">
         <h3 style="margin:0"><i class="fas fa-language" aria-hidden="true"></i> Languages</h3>
         <div class="skills-grid">
-          <div class="skill"><div class="skill-icon-small"><i class="fas fa-flag"></i></div><span>Albanian (Native)</span></div>
-          <div class="skill"><div class="skill-icon-small"><i class="fas fa-flag"></i></div><span>English (C1)</span></div>
-          <div class="skill"><div class="skill-icon-small"><i class="fas fa-flag"></i></div><span>Turkish (C1)</span></div>
-          <div class="skill"><div class="skill-icon-small"><i class="fas fa-flag"></i></div><span>Italian (B2)</span></div>
-        </div>
+          <div class="skill"><span>🇦🇱 Albanian (Native)</span></div>
+          <div class="skill"><span>🇬🇧 English (C1)</span></div>
+          <div class="skill"><span>🇹🇷 Turkish (C1)</span></div>
+          <div class="skill"><span>🇮🇹 Italian (B2)</span></div>
       </div>
+    </div>
     </div>
   </div>
 </section>
