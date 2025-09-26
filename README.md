@@ -239,16 +239,21 @@
       animation: float 6s ease-in-out infinite;
     }
     .profile-image {
-      width: 330px;
-      height: 330px;
-      border-radius: 50%;
-      background-color: var(--bg-alt);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 8rem;
-      color: var(--primary);
-    }
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  overflow: hidden; /* Ensure image is clipped in circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-alt);
+}
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Makes image cover the circle without distortion */
+  display: block;
+}
     @keyframes float {
       0% { transform: translateY(0px); }
       50% { transform: translateY(-20px); }
