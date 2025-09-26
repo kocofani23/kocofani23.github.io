@@ -757,316 +757,269 @@
           </a>
         </div>
       </div>
-      <div class="hero-image">
-  <div class="profile-container">
-    <div class="profile-image">
-      <!-- Replace 'profile.jpg' with the path or URL to your image -->
-      <img src="profile.jpg" alt="Koço Fani" style="width:150px; height:150px; border-radius:50%;">
-    </div>
-  </div>
+      <div class="hero-image"> 
+        <div class="profile-container"> 
+          <div class="profile-image"> 
+            <i class="fas fa-user"></i>
+          </div> 
+        </div> 
+      </div>
 </div>
 
     </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about" class="about">
-    <h2 class="section-title">About Me</h2>
-    <div class="about-content">
-      <div class="about-text">
-        <p>I'm a Computer Engineering student with a strong passion for software development, databases, and mobile applications. I enjoy solving real-world problems with code, building efficient systems, and learning new technologies.</p>
-        <p>My journey in technology started with curiosity about how things work, which evolved into a passion for creating solutions that make a difference. I'm constantly exploring new frameworks and tools to expand my skill set.</p>
-        <div class="quote-box">
-          <p id="quote-text">Loading a quote...</p>
-          <p class="quote-author" id="quote-author"></p>
-        </div>
-      </div>
-      <div class="skills-highlights">
-        <div class="skill-item">
-          <div class="skill-icon">
-            <i class="fas fa-mobile-alt"></i>
-          </div>
-          <div>
-            <h3>Mobile Development</h3>
-            <p>Creating responsive and user-friendly mobile applications</p>
-          </div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-icon">
-            <i class="fas fa-database"></i>
-          </div>
-          <div>
-            <h3>Database Design</h3>
-            <p>Designing efficient and scalable database systems</p>
-          </div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-icon">
-            <i class="fas fa-code"></i>
-          </div>
-          <div>
-            <h3>Software Engineering</h3>
-            <p>Building robust and maintainable software solutions</p>
-          </div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-icon">
-            <i class="fas fa-brain"></i>
-          </div>
-          <div>
-            <h3>Problem Solving</h3>
-            <p>Analyzing complex problems and developing effective solutions</p>
-          </div>
-        </div>
+  
+<!-- About Section -->
+<section id="about" class="about">
+  <h2 class="section-title">About Me</h2>
+  <div class="about-content">
+    <div class="about-text">
+      <p>I'm a Computer Engineering student with a strong passion for software development, databases, and mobile applications. I enjoy solving real-world problems with code, building efficient systems, and learning new technologies.</p>
+      <p>My journey in technology started with curiosity about how things work, which evolved into a passion for creating solutions that make a difference. I'm constantly exploring new frameworks and tools to expand my skill set.</p>
+
+      <div class="quote-box" aria-live="polite">
+        <p id="quote-text">Loading a quote...</p>
+        <p class="quote-author" id="quote-author"></p>
       </div>
     </div>
-  </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2 class="section-title">My Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <div class="project-image">
-          <i class="fas fa-clipboard-check"></i>
+    <aside class="skills-highlights" aria-label="Skills highlights">
+      <div class="skill-item">
+        <div class="skill-icon" aria-hidden="true">
+          <i class="fas fa-mobile-alt"></i>
         </div>
-        <div class="project-content">
-          <h3>Attendance Management System</h3>
-          <p>A comprehensive system built with Flutter, Firebase, and MSSQL for tracking and managing attendance with real-time updates and data visualization.</p>
-          <div class="project-tags">
-            <span class="tag">Flutter</span>
-            <span class="tag">Firebase</span>
-            <span class="tag">MSSQL</span>
-            <span class="tag">Mobile</span>
-          </div>
-          <div class="project-links">
-            <a href="#" class="project-link">
-              <i class="fab fa-github"></i> Code
-            </a>
-            <a href="#" class="project-link">
-              <i class="fas fa-external-link-alt"></i> Demo
-            </a>
-          </div>
+        <div>
+          <h3 style="margin:0">Mobile Development</h3>
+          <p style="margin:.3rem 0 0 0; font-size:.95rem;">Creating responsive and user-friendly mobile applications</p>
         </div>
       </div>
-      
-      
-      
-    
-  </section>
 
-  <!-- Skills Section -->
-  <section id="skills" class="skills">
-    <h2 class="section-title">My Skills</h2>
-    <div class="skills-container">
-      <div class="skills-categories">
-        <div class="skill-category">
-          <h3><i class="fas fa-code"></i> Programming Languages</h3>
-          <div class="skills-grid">
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fab fa-python"></i>
-              </div>
-              <span>Python</span>
-            </div>
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fab fa-java"></i>
-              </div>
-              <span>Java</span>
-            </div>
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fas fa-c"></i>
-              </div>
-              <span>C/C++</span>
-            </div>
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fab fa-csharp"></i>
-              </div>
-              <span>C#</span>
-            </div>
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fas fa-database"></i>
-              </div>
-              <span>SQL</span>
-            </div>
-          </div>
+      <div class="skill-item">
+        <div class="skill-icon" aria-hidden="true">
+          <i class="fas fa-database"></i>
         </div>
-        <div class="skill-category">
-          <h3><i class="fas fa-tools"></i> Frameworks & Technologies</h3>
-          <div class="skills-grid">
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fab fa-flutter"></i>
-              </div>
-              <span>Flutter</span>
-            </div>
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fab fa-git-alt"></i>
-              </div>
-              <span>Git</span>
-            </div>
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fas fa-fire"></i>
-              </div>
-              <span>Firebase</span>
-            </div>
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fas fa-brain"></i>
-              </div>
-              <span>TensorFlow</span>
-            </div>
-          </div>
-        </div>
-        <div class="skill-category">
-          <h3><i class="fas fa-database"></i> Databases</h3>
-          <div class="skills-grid">
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fas fa-database"></i>
-              </div>
-              <span>MySQL</span>
-            </div>
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fas fa-database"></i>
-              </div>
-              <span>PostgreSQL</span>
-            </div>
-            <div class="skill">
-              <div class="skill-icon-small">
-                <i class="fas fa-server"></i>
-              </div>
-              <span>MSSQL</span>
-            </div>
-          </div>
+        <div>
+          <h3 style="margin:0">Database Design</h3>
+          <p style="margin:.3rem 0 0 0; font-size:.95rem;">Designing efficient and scalable database systems</p>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Fun Section -->
-  <section id="fun">
-    <h2 class="section-title">Hobbies & Interests</h2>
-    <div class="hobbies-grid">
-      <div class="hobby-card">
-        <div class="hobby-icon">
-          <i class="fas fa-gamepad"></i>
+      <div class="skill-item">
+        <div class="skill-icon" aria-hidden="true">
+          <i class="fas fa-code"></i>
         </div>
-        <h3>Gaming</h3>
-        <p>I am a bit of an old school. I like old games that remind me of my childhood and enjoy the vibe that they have.</p>
-      </div>
-      <div class="hobby-card">
-        <div class="hobby-icon">
-          <i class="fas fa-book"></i>
+        <div>
+          <h3 style="margin:0">Software Engineering</h3>
+          <p style="margin:.3rem 0 0 0; font-size:.95rem;">Building robust and maintainable software solutions</p>
         </div>
-        <h3>Reading</h3>
-        <p>Literature classics and more. If you have any book suggestions please message me.</p>
       </div>
-      <div class="hobby-card">
-        <div class="hobby-icon">
-          <i class="fas fa-bicycle"></i>
-        </div>
-        <h3>Cycling</h3>
-        <p>Old school me strikes again. I have an old road bike that I spend more time fixing than riding it.</p>
-      </div>
-  </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <h2 class="section-title">Get In Touch</h2>
-    <div class="contact-container">
-      <div class="contact-info">
-        <h3>Let's Connect</h3>
-        <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.</p>
-        <div class="contact-details">
-          <div class="contact-item">
-            <div class="contact-icon">
-              <i class="fas fa-envelope"></i>
-            </div>
-            <div class="contact-text">
-              <h4>Email</h4>
-              <a href="mailto:kocofanni@gmail.com">kocofanni@gmail.com</a>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-icon">
-              <i class="fab fa-linkedin"></i>
-            </div>
-            <div class="contact-text">
-              <h4>LinkedIn</h4>
-              <a href="https://www.linkedin.com/in/koço-fani-144597294/" target="_blank">Connect with me</a>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-icon">
-              <i class="fab fa-github"></i>
-            </div>
-            <div class="contact-text">
-              <h4>GitHub</h4>
-              <a href="https://github.com/kocofani23" target="_blank">View my projects</a>
-            </div>
-          </div>
+      <div class="skill-item">
+        <div class="skill-icon" aria-hidden="true">
+          <i class="fas fa-brain"></i>
         </div>
-        <div class="social-links">
-          <a href="#" class="social-link">
-            <i class="fab fa-twitter"></i>
+        <div>
+          <h3 style="margin:0">Problem Solving</h3>
+          <p style="margin:.3rem 0 0 0; font-size:.95rem;">Analyzing complex problems and developing effective solutions</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <h2 class="section-title">My Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <div class="project-image" aria-hidden="true">
+        <i class="fas fa-clipboard-check"></i>
+      </div>
+      <div class="project-content">
+        <h3>Attendance Management System</h3>
+        <p>A comprehensive system built with Flutter, Firebase, and MSSQL for tracking and managing attendance with real-time updates and data visualization.</p>
+        <div class="project-tags" aria-hidden="true">
+          <span class="tag">Flutter</span>
+          <span class="tag">Firebase</span>
+          <span class="tag">MSSQL</span>
+          <span class="tag">Mobile</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link" aria-label="View code on GitHub">
+            <i class="fab fa-github"></i> Code
           </a>
-          <a href="https://www.instagram.com/_kocofani_?igsh=M2NiOW5wbWpodXBh" class="social-link">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="https://www.facebook.com/share/1JSZuCdiLm/?mibextid=wwXIfr" class="social-link">
-            <i class="fab fa-facebook-f"></i>
+          <a href="#" class="project-link" aria-label="View demo">
+            <i class="fas fa-external-link-alt"></i> Demo
           </a>
         </div>
       </div>
-      <div class="contact-form">
-        <h3>Send Me a Message</h3>
-        <form id="contactForm">
-          <div class="form-group">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" class="form-control" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Your Email</label>
-            <input type="email" id="email" class="form-control" required>
-          </div>
-          <div class="form-group">
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" class="form-control" required>
-          </div>
-          <div class="form-group">
-            <label for="message">Your Message</label>
-            <textarea id="message" class="form-control" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">
-            <i class="fas fa-paper-plane"></i> Send Message
-          </button>
-        </form>
-      </div>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="footer-content">
-      <a href="#" class="footer-logo">Koço Fani</a>
-      <div class="footer-links">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#fun">Hobbies</a>
-        <a href="#contact">Contact</a>
+    <!-- Example additional project (keeps layout consistent) -->
+    <div class="project-card">
+      <div class="project-image" aria-hidden="true">
+        <i class="fas fa-code"></i>
       </div>
-      <p class="copyright">© 2025 Koço Fani. All rights reserved.</p>
+      <div class="project-content">
+        <h3>Portfolio Website</h3>
+        <p>Personal site built with HTML, CSS, and a little JavaScript — responsive and minimal. Deployed on GitHub Pages.</p>
+        <div class="project-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+        </div>
+      </div>
     </div>
-  </footer>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills">
+  <h2 class="section-title">My Skills</h2>
+  <div class="skills-container">
+    <div class="skills-categories">
+      <div class="skill-category">
+        <h3 style="margin:0"><i class="fas fa-code" aria-hidden="true"></i> Programming Languages</h3>
+        <div class="skills-grid">
+          <div class="skill"><div class="skill-icon-small"><i class="fab fa-python"></i></div><span>Python</span></div>
+          <div class="skill"><div class="skill-icon-small"><i class="fab fa-java"></i></div><span>Java</span></div>
+          <div class="skill"><div class="skill-icon-small"><i class="fas fa-terminal"></i></div><span>C / C++</span></div>
+          <div class="skill"><div class="skill-icon-small"><i class="fab fa-microsoft"></i></div><span>C#</span></div>
+          <div class="skill"><div class="skill-icon-small"><i class="fas fa-database"></i></div><span>SQL</span></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3 style="margin:0"><i class="fas fa-tools" aria-hidden="true"></i> Frameworks & Technologies</h3>
+        <div class="skills-grid">
+          <div class="skill"><div class="skill-icon-small"><i class="fab fa-flutter"></i></div><span>Flutter</span></div>
+          <div class="skill"><div class="skill-icon-small"><i class="fab fa-git-alt"></i></div><span>Git</span></div>
+          <div class="skill"><div class="skill-icon-small"><i class="fas fa-fire"></i></div><span>Firebase</span></div>
+          <div class="skill"><div class="skill-icon-small"><i class="fas fa-brain"></i></div><span>TensorFlow</span></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3 style="margin:0"><i class="fas fa-database" aria-hidden="true"></i> Databases</h3>
+        <div class="skills-grid">
+          <div class="skill"><div class="skill-icon-small"><i class="fas fa-database"></i></div><span>MySQL</span></div>
+          <div class="skill"><div class="skill-icon-small"><i class="fas fa-database"></i></div><span>PostgreSQL</span></div>
+          <div class="skill"><div class="skill-icon-small"><i class="fas fa-server"></i></div><span>MSSQL</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Fun Section -->
+<section id="fun">
+  <h2 class="section-title">Hobbies & Interests</h2>
+  <div class="hobbies-grid">
+    <div class="hobby-card">
+      <div class="hobby-icon" aria-hidden="true"><i class="fas fa-gamepad"></i></div>
+      <h3>Gaming</h3>
+      <p>I like old-school games that remind me of childhood — the vibe is everything.</p>
+    </div>
+
+    <div class="hobby-card">
+      <div class="hobby-icon" aria-hidden="true"><i class="fas fa-book"></i></div>
+      <h3>Reading</h3>
+      <p>Literature classics, sci-fi, and tech books. Book suggestions welcome!</p>
+    </div>
+
+    <div class="hobby-card">
+      <div class="hobby-icon" aria-hidden="true"><i class="fas fa-bicycle"></i></div>
+      <h3>Cycling</h3>
+      <p>I have an old road bike I tinker with and ride when the weather's right.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2 class="section-title">Get In Touch</h2>
+  <div class="contact-container">
+    <div class="contact-info">
+      <h3 style="margin-top:0">Let's Connect</h3>
+      <p>I'm always open to discussing new opportunities or interesting projects.</p>
+
+      <div class="contact-details" style="margin-top:1rem;">
+        <div class="contact-item" style="display:flex; gap:.8rem; align-items:center; margin-bottom:.8rem;">
+          <div class="contact-icon" aria-hidden="true"><i class="fas fa-envelope"></i></div>
+          <div class="contact-text">
+            <h4 style="margin:.0">Email</h4>
+            <a href="mailto:kocofanni@gmail.com">kocofanni@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-item" style="display:flex; gap:.8rem; align-items:center; margin-bottom:.8rem;">
+          <div class="contact-icon" aria-hidden="true"><i class="fab fa-linkedin"></i></div>
+          <div class="contact-text">
+            <h4 style="margin:.0">LinkedIn</h4>
+            <a href="https://www.linkedin.com/in/ko%C3%A7o-fani-144597294/" target="_blank" rel="noopener">Connect with me</a>
+          </div>
+        </div>
+
+        <div class="contact-item" style="display:flex; gap:.8rem; align-items:center;">
+          <div class="contact-icon" aria-hidden="true"><i class="fab fa-github"></i></div>
+          <div class="contact-text">
+            <h4 style="margin:.0">GitHub</h4>
+            <a href="https://github.com/kocofani23" target="_blank" rel="noopener">View my projects</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-links" style="margin-top:1rem;">
+        <a href="#" class="social-link" style="margin-right:.5rem;"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/_kocofani_" class="social-link" style="margin-right:.5rem;"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1JSZuCdiLm/?mibextid=wwXIfr" class="social-link"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <h3 style="margin-top:0">Send Me a Message</h3>
+      <form id="contactForm" onsubmit="handleContact(event)">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" class="form-control" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+        <div id="contact-status" aria-live="polite" style="margin-top:.8rem;"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-content">
+    <a href="#" class="footer-logo" style="font-weight:700; color:inherit; text-decoration:none;">Koço Fani</a>
+    <div class="footer-links" style="margin-top:.6rem; display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#fun">Hobbies</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p class="copyright" style="margin-top:.8rem;">© 2025 Koço Fani. All rights reserved.</p>
+  </div>
+</footer>
 
   <script>
     // Theme Toggle
